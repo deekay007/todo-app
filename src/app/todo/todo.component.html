@@ -1,0 +1,14 @@
+<div class="input-group mb-3">
+    <input type="text" class="form-control" aria-label="task" aria-describedby="task">
+    <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2"><i class="fa fa-plus"></i></span>
+    </div>
+</div>
+
+<div>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of listArray">
+            {{item.title}}
+        </li>
+    </ul>
+</div>
